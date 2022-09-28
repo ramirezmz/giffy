@@ -16,6 +16,12 @@ Vamos aprender então, a controlar um estado usando *useState*.
 
 > useState é um hook para controlar valores
 
+Primeiramente, precisamos importar useState de react.
+
+```js
+import React, { useState } from 'react';
+```
+
 #### O que o `useState` faz?
 
 Ele declara um variável state. Nossa variável é chamada de count mas poderíamos chamar de qualquer coisa, como banana. Esta é uma maneira de “preservar” alguns valores entre as chamadas de funções (...).Normalmente, variáveis “desaparecem” quando a função sai mas variáveis de state são preservadas pelo React.
@@ -34,13 +40,6 @@ function Example() {
   const [ count, setCount ] = useState(0)
 }
 ```
-
-Primeiramente, precisamos importar useState de react.
-
-```js
-import React, { useState } from 'react';
-```
-
 
 
 # ATENÇÃO!!

@@ -41,6 +41,13 @@ function Example() {
 }
 ```
 
+#### Atualizando o state
+
+```js
+<button onClick={() => setCount(count + 1)}>
+  Clique aqui
+</button>
+```
 
 # ATENÇÃO!!
 
